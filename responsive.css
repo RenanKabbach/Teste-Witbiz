@@ -1,0 +1,64 @@
+@media (max-width: 1200px) {
+  header {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  header {
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 5% 5%;
+  }
+
+  .post-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .post img {
+    width: 100%;
+  }
+
+  .footer-infos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsletter-section {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 30px 5%;
+  }
+
+  .banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .learn-more {
+    width: 16rem;
+  }
+
+  .footer-infos {
+    padding: 40px 5%;
+  }
+
+  .column-footer {
+    flex-wrap: wrap;
+  }
+
+
+  @media (max-width: 600px) {
+    header {
+      padding: 20px 2%;
+    }
+  }
+}
